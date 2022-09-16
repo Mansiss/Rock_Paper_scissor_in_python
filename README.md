@@ -1,4 +1,5 @@
 # Rock_Paper_scissor_in_python
+```
 import random
 rock = '''
     _______
@@ -29,7 +30,7 @@ scissors = '''
 list_rps=[rock,paper,scissors]
 length=len(list_rps)
 # print(list_rps[2])
-#Write your code below this line 👇
+
 my=int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
 if (my==0) or (my==1) or (my==2):
   if (my==0) :
@@ -69,3 +70,4 @@ if (my==0) or (my==1) or (my==2):
       print("Draw")
 else:
   print('invalid entry, Try Again')
+  ```
